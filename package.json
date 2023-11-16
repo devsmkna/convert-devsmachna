@@ -1,5 +1,14 @@
 {
-  "dependencies": {
-    "convert-devsmachna": "^1.0.0"
-  }
+  "name": "convert-devsmachna",
+  "version": "2.0.0",
+  "description": "Currency converter in typescript",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && echo Executing tests... && node build/test.js",
+    "start": "npm run build && echo Starting package... && node build/index.js"
+  },
+  "keywords": ["currency","money","converter","typescript","javascript"],
+  "author": "",
+  "license": "MIT"
 }
